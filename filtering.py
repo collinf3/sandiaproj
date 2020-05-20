@@ -309,5 +309,6 @@ plt.show()
 #  https://scikit-image.org/docs/0.9.x/auto_examples/plot_random_walker_segmentation.html
 # todo check out everything in scikit image filters as well as medpy
 # todo implement Dfly ML to python with multiotsu teaching seeds
+# todo use Dfly ML to take really noisy, quick, crappy, image data use well-filtered python / hi fidelity scans to train DL
 
 

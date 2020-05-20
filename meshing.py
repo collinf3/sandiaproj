@@ -262,7 +262,7 @@ regions_tv_stack = np.digitize(tv_stack, bins=thresholds_tv_stack)
 b=regions_tv_stack==3 #boolean of specified region
 regions_tv_stack_segmented=tv_stack*b
 
-# %%
+# %% code code code
 #save filtered chunk
 for i in range(meteor_chunk[0,0].size):
     newimage = tv_stack[:, :, i]
