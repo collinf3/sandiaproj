@@ -21,7 +21,7 @@ ax[1].imshow(image[0], cmap=plt.cm.gray)
 ax[1].set_title('new')
 plt.show()
 
-# %% export
+# %% export project
 for i in range(image[0,0].size):
     newimage = image[:, :, i]
     imageio.imwrite('/home/collinf3/Documents/sandia_temp/datasamples/sandia_data/CPhV_axflip/CPhV_axflip%d.tif' %i, img_as_uint(newimage))
